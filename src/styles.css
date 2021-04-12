@@ -1,0 +1,173 @@
+body {
+	background-color: #24d292;
+  }
+  h1 {
+	font-size: 40px;
+	font-family: "Abril Fatface", cursive;
+	border: black 1px solid;
+	border-radius: 10px;
+	display: block;
+	margin: 30px 860px 30px 50px;
+	padding: 5px 10px 5px 10px;
+  }
+  .search-card {
+	font-family: "Lato", sans-serif;
+	display: inline;
+  }
+  .stretch-card > .card {
+	width: 100%;
+	min-width: 100%;
+  }
+  button {
+	display: block;
+	padding: 20px auto;
+	margin: 10px 30px ;
+	position: relative;
+	left: 300px;
+  }
+  .flex {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+  }
+  
+  @media (max-width: 991.98px) {
+	.padding {
+	  padding: 1.5rem;
+	}
+  }
+  
+  @media (max-width: 767.98px) {
+	.padding {
+	  padding: 1rem;
+	}
+  }
+  
+  #fahrenheit-link {
+	font-size: 15px;
+  }
+  #celsius-link {
+	font-size: 15px;
+  }
+  
+  .padding {
+	padding: 5rem;
+  }
+  
+  .grid-margin,
+  .purchace-popup > div {
+	margin-bottom: 25px;
+  }
+  
+  .card {
+	border: 0;
+	border-radius: 2px;
+  }
+  
+  .card-weather {
+	background: #e1ecff;
+	background-image: linear-gradient(
+	  to left bottom,
+	  #d6eef6,
+	  #dff0fa,
+	  #e7f3fc,
+	  #eff6fe,
+	  #f6f9ff
+	);
+  }
+  
+  .card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+  }
+  
+  .card-weather .card-body:first-child {
+	background: url(https://www.pngitem.com/pimgs/m/56-561079_city-nyc-skyline-outline-art-hd-png-download.png)
+	  no-repeat center;
+	background-size: cover;
+  }
+  
+  .card-body {
+	flex: 1 1 auto;
+	padding: 1.25rem;
+  }
+  
+  .card-weather .weather-date-location {
+	padding: 0 0 38px;
+  }
+  
+  .h3,
+  h3 {
+	font-size: 1.56rem;
+  }
+  .top-display {
+	position: relative;
+	top: -25px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
+  }
+  
+  p {
+	font-size: 14px;
+	position: relative;
+  }
+  
+  .card-weather .weather-data {
+	padding: 0 0 4.75rem;
+  }
+  
+  .mr-auto,
+  .mx-auto {
+	margin-right: auto !important;
+  }
+  
+  .display-3 {
+	font-size: 2.5rem;
+	top: -20px;
+	position: relative;
+  }
+  
+  .card-weather .card-body {
+	background: #b0dbc4;
+  }
+  
+  .card-weather .weakly-weather {
+	background: #b0dbc4;
+	overflow-x: auto;
+  }
+  
+  .card-weather .weakly-weather .weakly-weather-item {
+	flex: 0 0 14.28%;
+	border-right: 1px solid #aad8ad;
+	padding: 1rem;
+	text-align: center;
+  }
+  
+  .mb-0,
+  .my-0 {
+	margin-bottom: 0 !important;
+  }
+  
+  .card-weather .weakly-weather .weakly-weather-item i {
+	font-size: 1.2rem;
+  }
+
+  .weather-location {
+	  font-weight: bolder;
+  }
+  
