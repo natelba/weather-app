@@ -21,7 +21,7 @@ body {
   button {
 	display: block;
 	padding: 20px auto;
-	margin: 10px 30px ;
+	margin: 10px 30px;
 	position: relative;
 	left: 300px;
   }
@@ -166,8 +166,8 @@ body {
   .card-weather .weakly-weather .weakly-weather-item i {
 	font-size: 1.2rem;
   }
-
+  
   .weather-location {
-	  font-weight: bolder;
+	font-weight: bolder;
   }
   
